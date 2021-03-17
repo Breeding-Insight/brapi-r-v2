@@ -6,8 +6,8 @@ export(ApiClient)
 export(ApiResponse)
 
 # Models
-export(202AcceptedSearchResponse)
-export(202AcceptedSearchResponseResult)
+export(Accepted202SearchResponse)
+export(Accepted202SearchResponseResult)
 export(Analysis)
 export(BasePagination)
 export(BreedingMethod)

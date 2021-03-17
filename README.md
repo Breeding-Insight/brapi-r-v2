@@ -320,8 +320,8 @@ Class | Method | HTTP request | Description
 
 ## Documentation for Models
 
- - [202AcceptedSearchResponse](docs/202AcceptedSearchResponse.md)
- - [202AcceptedSearchResponseResult](docs/202AcceptedSearchResponseResult.md)
+ - [Accepted202SearchResponse](docs/Accepted202SearchResponse.md)
+ - [Accepted202SearchResponseResult](docs/Accepted202SearchResponseResult.md)
  - [Analysis](docs/Analysis.md)
  - [BasePagination](docs/BasePagination.md)
  - [BreedingMethod](docs/BreedingMethod.md)

@@ -1,4 +1,4 @@
-# openapi::202AcceptedSearchResponseResult
+# openapi::Accepted202SearchResponseResult
 
 ## Properties
 Name | Type | Description | Notes

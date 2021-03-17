@@ -211,7 +211,7 @@
 #' }
 #' \item status code : 202 | Accepted
 #'
-#' \item return type : 202AcceptedSearchResponse 
+#' \item return type : Accepted202SearchResponse
 #' \item response headers :
 #'
 #' \tabular{ll}{
@@ -259,7 +259,7 @@
 #' }
 #' \item status code : 202 | Accepted
 #'
-#' \item return type : 202AcceptedSearchResponse 
+#' \item return type : Accepted202SearchResponse
 #' \item response headers :
 #'
 #' \tabular{ll}{
