@@ -1,0 +1,16 @@
+# openapi::ObservationUnitPosition
+
+All positional and layout information related to this Observation Unit  MIAPPE V1.1 (DM-73) Spatial distribution - Type and value of a spatial coordinate (georeference or relative) or level of observation (plot 45, subblock 7, block 2) provided as a key-value pair of the form type:value. Levels of observation must be consistent with those listed in the Study section.
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**entryType** | **character** | The type of entry for this observation unit. ex. \&quot;CHECK\&quot;, \&quot;TEST\&quot;, \&quot;FILLER\&quot; | [optional] 
+**geoCoordinates** | [**GeoJSON**](geoJSON.md) |  | [optional] 
+**observationLevel** | [**ObservationUnitLevelRelationship**](ObservationUnitLevelRelationship.md) |  | [optional] 
+**observationLevelRelationships** | [**array[ObservationUnitLevelRelationship]**](ObservationUnitLevelRelationship.md) | Observation levels indicate the granularity level at which the measurements are taken.   &#x60;levelName&#x60; defines the level   &#x60;levelOrder&#x60; defines where that level exists in the hierarchy of levels. &#x60;levelOrder&#x60;s lower numbers are at the top of the hierarchy (ie field &gt; 0) and higher numbers are at the bottom of the hierarchy (ie plant &gt; 6).   &#x60;levelCode&#x60; is an ID code for this level tag. Identify this observation unit by each level of the hierarchy where it exists | [optional] 
+**positionCoordinateX** | **character** | The X position coordinate for an observation unit. Different systems may use different coordinate systems. | [optional] 
+**positionCoordinateXType** | **character** | The type of positional coordinate used. Must be one of the following values  LONGITUDE - ISO 6709 standard, WGS84 geodetic datum. See &#39;Location Coordinate Encoding&#39; for details  LATITUDE - ISO 6709 standard, WGS84 geodetic datum. See &#39;Location Coordinate Encoding&#39; for details  PLANTED_ROW - The physical planted row number   PLANTED_INDIVIDUAL - The physical counted number, could be independant or within a planted row  GRID_ROW - The row index number of a square grid overlay  GRID_COL - The column index number of a square grid overlay  MEASURED_ROW - The distance in meters from a defined 0-th row  MEASURED_COL - The distance in meters from a defined 0-th column | [optional] 
+**positionCoordinateY** | **character** | The Y position coordinate for an observation unit. Different systems may use different coordinate systems. | [optional] 
+**positionCoordinateYType** | **character** | The type of positional coordinate used. Must be one of the following values  LONGITUDE - ISO 6709 standard, WGS84 geodetic datum. See &#39;Location Coordinate Encoding&#39; for details  LATITUDE - ISO 6709 standard, WGS84 geodetic datum. See &#39;Location Coordinate Encoding&#39; for details  PLANTED_ROW - The physical planted row number   PLANTED_INDIVIDUAL - The physical counted number, could be independant or within a planted row  GRID_ROW - The row index number of a square grid overlay  GRID_COL - The column index number of a square grid overlay  MEASURED_ROW - The distance in meters from a defined 0-th row  MEASURED_COL - The distance in meters from a defined 0-th column | [optional] 
+
+
